@@ -92,3 +92,10 @@ Created as a beginner JavaScript learning project to practise front-end web deve
 ## 📄 License
 
 This project is available for learning and educational purposes. Add a specific open-source license if you decide to distribute it under particular terms.
+
+# Default Mode
+<img width="1731" height="2191" alt="Screenshot_14-10-2026_142135_127 0 0 1" src="https://github.com/user-attachments/assets/a05374f7-8754-4346-a168-73020347d13e" />
+
+# Dark Mode
+<img width="1731" height="2191" alt="Screenshot_14-10-2026_142152_127 0 0 1" src="https://github.com/user-attachments/assets/df4b726e-039d-462e-9db8-522143b6fe46" />
+
