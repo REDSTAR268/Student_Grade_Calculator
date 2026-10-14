@@ -1,0 +1,206 @@
+
+/* Basic page design */
+* {
+    box-sizing: border-box;
+}
+
+/* Light Mode */
+body {
+    font-family: Arial, sans-serif;
+    background: #eff6ff;
+    color: #222222;
+    margin: 0;
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    color: #1d4ed8;
+    margin-bottom: 10px;
+}
+
+/* Introduction paragraph */
+body > p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222222;
+}
+
+/* Form and results */
+#grade-form,
+#results {
+    max-width: 600px;
+    margin: 0 auto 32px;
+    padding: 25px;
+    border-left: 5px solid #0033cc;
+    background-color: #ffffff;
+    color: #222222;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #222222;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #0033cc;
+    box-shadow: 0 0 0 3px rgba(0, 51, 204, 0.12);
+    background-color: #eff6ff;
+}
+
+/* Section headings */
+
+h2 {
+    color: #0033cc;
+    margin-top: 20px;
+    margin-bottom: 18px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Center the Results heading */
+body > h2 {
+    text-align: center;
+}
+
+/* Buttons */
+
+button {
+    padding: 14px 24px;
+    margin-top: 20px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(37, 99, 235, 0.25);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+button[type="reset"] {
+    background-color: #475569;
+    color: white;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-weight: bold;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+button[type="reset"]:hover {
+    background-color: #334155;
+    transform: translateY(-2px);
+}
+
+button[type="submit"] {
+    background-color: #0033cc;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 51, 204, 0.3);
+}
+
+
+button:hover {
+    opacity: 1;
+    transform: translateY(-2px);
+    filter: brightness(0.9);
+}
+
+/* Results text */
+
+#results p {
+    padding: 12px;
+    margin: 8px 0;
+    border-bottom: 1px solid #e2e8f0;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background: #121212;
+    color: #f5f5f5;
+}
+
+/* Dark Mode: form and results */
+body.dark-mode #grade-form,
+body.dark-mode #results {
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+}
+
+/* Dark Mode: labels and paragraphs */
+body.dark-mode label,
+body.dark-mode p {
+    color: #f5f5f5;
+}
+
+/* Dark Mode: input fields */
+body.dark-mode input {
+    background-color: #2b2b2b;
+    color: #ffffff;
+    border-color: #555555;
+}
+
+/* Dark Mode: placeholder text */
+body.dark-mode input::placeholder {
+    color: #cccccc;
+}
+
+/* Dark Mode: input focus */
+body.dark-mode input:focus {
+    border: 2px solid #93c5fd;
+    background-color: #2b2b2b;
+    box-shadow: 0 0 0 3px rgba(147, 197, 253, 0.2);
+}
+
+/* Dark Mode: headings */
+body.dark-mode h1,
+body.dark-mode h2 {
+    color: #93c5fd;
+}
+
+/* Mobile-friendly layout */
+@media (max-width: 600px) {
+    body {
+        padding: 20px 12px;
+    }
+
+    #grade-form,
+    #results {
+        padding: 18px;
+        margin-bottom: 24px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    button {
+        max-width: 100%;
+    }
+}
